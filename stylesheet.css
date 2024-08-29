@@ -1,0 +1,41 @@
+body{
+    background-color: aquamarine;
+}
+
+h1{
+    text-align: center;
+    margin-top: 5%;
+}
+.card{
+    display:flex;
+    flex-wrap: wrap;
+    background-color: white;
+    border-style: hidden;
+    border-radius: 10px;
+    max-width:30%;
+    height: 300px;
+    margin:auto;
+    margin-top: 5%;
+    padding: 15px;
+    box-shadow: 3px 3px 5px 6px #ccc;
+    text-align: center;
+    background-color: aqua;
+
+}
+.text{
+    display:block;
+    float: left;
+    margin: auto;
+    color:black;
+    font-size:30px ;
+    
+    
+}
+#text1{
+    color: rgb(147, 105, 43);
+}
+.card:hover{
+    background-color:yellow;
+    height: 400px;
+    width: 500px;
+}
